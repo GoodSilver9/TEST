@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(#f0f4ff, #a5b6ee) no-repeat;
+}
+button {
+  width: 112px;
+  height: 48px;
+  border-radius: 50px;
+  border: none;
+  background-color: #324577;
+  color: #fff;
+  cursor: pointer;
+}
+p {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  width: 400px;
+  height: 360px;
+  background: linear-gradient(#5572bb, #374b7c) no-repeat;
+  border: 1px solid #354971;
+  border-radius: 15px;
+  box-shadow: 20px 20px 60px 10px #374b7c66;
+}
+.weniv_title {
+}
+
+.timer_title {
+  border-bottom: 1px solid #3d538a;
+
+  padding: 23px 100px;
+}
+
+.timer_time {
+  margin-bottom: 40px;
+}
+.timer_time_box {
+  display: flex;
+}
+.timer_time_box div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer_time_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 44px 8px;
+}
+.timer_time_display {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  border: 1px solid #354971;
+  background: linear-gradient(#304577, #4c65a0) no-repeat;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.timer_button {
+}
+.timer_button button {
+}
+.timer_button_start.active {
+  background-color: #5180ff;
+}
+.timer_button_reset.active {
+  background-color: #fb7099;
+}
+.timer_button img {
+  vertical-align: bottom;
+  object-fit: contain;
+  margin-right: 5px;
+}
